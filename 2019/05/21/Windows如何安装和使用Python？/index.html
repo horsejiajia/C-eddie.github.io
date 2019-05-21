@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang=de>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Windows如何安装和使用Python？ Python虽然是一门编程语言，但下载使用其实和普通软件没什么区别。  [TOC] 简单介绍PythonPython是一门相较于其他编程语言来说，相对简单的编程语言。维基百科对Python的描述是：解释型、高级编程、通用型编程语言，由吉多·范罗苏姆创造，第一版发布于1991年。可以视之为一种改良（加入一些其他编程语言的优点，如面向对象）的LISP。Pyt">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windows如何安装和使用Python？">
+<meta property="og:url" content="https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/index.html">
+<meta property="og:site_name" content="Step by step">
+<meta property="og:description" content="Windows如何安装和使用Python？ Python虽然是一门编程语言，但下载使用其实和普通软件没什么区别。  [TOC] 简单介绍PythonPython是一门相较于其他编程语言来说，相对简单的编程语言。维基百科对Python的描述是：解释型、高级编程、通用型编程语言，由吉多·范罗苏姆创造，第一版发布于1991年。可以视之为一种改良（加入一些其他编程语言的优点，如面向对象）的LISP。Pyt">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-05-21T00:34:14.255Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Windows如何安装和使用Python？">
+<meta name="twitter:description" content="Windows如何安装和使用Python？ Python虽然是一门编程语言，但下载使用其实和普通软件没什么区别。  [TOC] 简单介绍PythonPython是一门相较于其他编程语言来说，相对简单的编程语言。维基百科对Python的描述是：解释型、高级编程、通用型编程语言，由吉多·范罗苏姆创造，第一版发布于1991年。可以视之为一种改良（加入一些其他编程语言的优点，如面向对象）的LISP。Pyt">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Windows如何安装和使用Python？</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/categories/">Categories</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2019/05/20/hello-world/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Post Anterior</span>
+      <span id="i-next" class="info" style="display:none;">Post Següent</span>
+      <span id="i-top" class="info" style="display:none;">Adalt</span>
+      <span id="i-share" class="info" style="display:none;">Compartir Post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&text=Windows如何安装和使用Python？"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&is_video=false&description=Windows如何安装和使用Python？"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Windows如何安装和使用Python？&body=Check out this article: https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&name=Windows如何安装和使用Python？&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Windows如何安装和使用Python？"><span class="toc-number">1.</span> <span class="toc-text">Windows如何安装和使用Python？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#简单介绍Python"><span class="toc-number">1.1.</span> <span class="toc-text">简单介绍Python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何安装Python"><span class="toc-number">1.2.</span> <span class="toc-text">如何安装Python</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1：到官网下载并安装Python到电脑上"><span class="toc-number">1.2.1.</span> <span class="toc-text">1：到官网下载并安装Python到电脑上</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2：让电脑知道你把Python下载到哪了"><span class="toc-number">1.2.2.</span> <span class="toc-text">2：让电脑知道你把Python下载到哪了</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3：安装一个用来写Python代码的文本编辑器"><span class="toc-number">1.2.3.</span> <span class="toc-text">3：安装一个用来写Python代码的文本编辑器</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何使用Python"><span class="toc-number">1.3.</span> <span class="toc-text">如何使用Python</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Windows如何安装和使用Python？
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Step by step</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-05-21T00:34:14.219Z" itemprop="datePublished">2019-05-21</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/python/">python</a>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="Windows如何安装和使用Python？"><a href="#Windows如何安装和使用Python？" class="headerlink" title="Windows如何安装和使用Python？"></a>Windows如何安装和使用Python？</h2><blockquote>
+<p>Python虽然是一门编程语言，但下载使用其实和普通软件没什么区别。</p>
+</blockquote>
+<p>[TOC]</p>
+<h3 id="简单介绍Python"><a href="#简单介绍Python" class="headerlink" title="简单介绍Python"></a>简单介绍Python</h3><p><code>Python是一门相较于其他编程语言来说，相对简单的编程语言。</code><a href="https://zh.wikipedia.org/wiki/Python" target="_blank" rel="noopener">维基百科</a>对Python的描述是：<strong>解释型、高级编程、通用型编程语言，由吉多·范罗苏姆创造，第一版发布于1991年。可以视之为一种改良（加入一些其他编程语言的优点，如面向对象）的LISP。Python的设计哲学强调代码的可读性和简洁的语法（尤其是使用空格缩进划分代码块，而非使用大括号或者关键词）。相比于C++或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</strong></p>
+<p>对于上面一整段话，只需要记住第一句就可以了。</p>
+<hr>
+<h3 id="如何安装Python"><a href="#如何安装Python" class="headerlink" title="如何安装Python"></a>如何安装Python</h3><p>Python在不同系统下安装，有不同的操作步骤，今天我们只针对Windows进行分享。Python安装和普通软件安装基本没什么区别，可能会多1～2个步骤。主要分为三个步骤：</p>
+<ol>
+<li><strong>到<a href="https://www.python.org/downloads/" target="_blank" rel="noopener">官网</a>下载并安装Python到电脑上</strong> （按默认路径，并选择Add Python to PATH)</li>
+<li><strong>让电脑知道你把Python下载到哪了</strong> (有的电脑笨，需要手动进行一些操作，下面会解释)</li>
+<li><strong>安装一个用来写Python代码的文本编辑器</strong></li>
+</ol>
+<h4 id="1：到官网下载并安装Python到电脑上"><a href="#1：到官网下载并安装Python到电脑上" class="headerlink" title="1：到官网下载并安装Python到电脑上"></a>1：到<a href="https://www.python.org/downloads/" target="_blank" rel="noopener">官网</a>下载并安装Python到电脑上</h4><p>这一步是三个步骤里最简单的一步。官网的网址我已经链接到<code>官网</code>这两个字上了，点击即可。由于官网是全英文，如果进到官网里不知道哪里选择下载，这篇文章不会在这里帮助你，编程语言绝大部分是由英文构成，如果连下载都不知道在哪里，后边的编程基本是没路可走的。但也别灰心，这里也有方法：下死功夫，长期浸泡在英文技术网站里。</p>
+<p>下载好安装包后，就要安装到电脑上，这里要注意的是：<code>按照默认路径，不要擅作主张更改安装的路径。一定要勾选Add Python to PATH，不然后期会出很多麻烦。</code>这两点在上边有说过，这里在啰嗦 一下。</p>
+<p>好，到这里第一步就圆满完成了。</p>
+<h4 id="2：让电脑知道你把Python下载到哪了"><a href="#2：让电脑知道你把Python下载到哪了" class="headerlink" title="2：让电脑知道你把Python下载到哪了"></a>2：让电脑知道你把Python下载到哪了</h4><p>这一点很重要。有的电脑很聪明，当你按照上面的步骤操作安装了之后，电脑会知道你把Python安装到哪里了。有的电脑脑袋就不那么灵光了，需要你手动进行一些操作（很简单）来告诉电脑Python的具体位置。如果电脑不知道Python的位置，而你也没有告诉它，那么你就没法打开Python，也就没法用Python来实现你脑中的想法了。</p>
+<p>先分享第一种情况：电脑知道Python的具体位置。那么怎么打开Python呢？这时候要用到一种叫<code>命令提示符</code>的东西，这是什么呢？在这里先不进行分享，只要按照步骤进行操作就好。</p>
+<ul>
+<li>win键+R，输入cmd，敲回车。打开的这个东西就叫<code>命令提示符</code></li>
+<li>输入Python，如出现<code>&gt;&gt;&gt;</code>的符号，即说明你的电脑很聪明，知道你把Python安装到哪里了</li>
+</ul>
+<p>到这里，如果一切很顺利，那么说明，你的电脑很聪明。如果没有出现<code>&gt;&gt;&gt;</code>，那么你就需要手动进行一些操作，来告诉你的电脑。不用担心，非常简单。我们下面分享第二种情况。</p>
+<ul>
+<li>你来找Python的安装位置</li>
+<li>告诉电脑</li>
+</ul>
+<p>怎么找？Python默认安装路径在C盘，如果你能记得住安装路径，那就可以直接告诉电脑了；记不住的话，在C盘里搜索Python，找到并打开以Python打头的文件夹，再找到文件Python。</p>
+<p>找到Python的位置后，怎么告诉电脑呢？还记得之前的<code>命令提示符</code>吗？它是我们跟电脑交流的中间人哦，没有<code>命令提示符</code>，我们是没法跟电脑交流的。所以还要用到它，打开<code>命令提示符</code>，将Python的完整路径输入进去，比如我的Python位置是C:\Python35\python，输入进去后，敲击回车，出现<code>&gt;&gt;&gt;</code>没有？</p>
+<p>如果可行，就说明你已经知道如何访问Python了。</p>
+<h4 id="3：安装一个用来写Python代码的文本编辑器"><a href="#3：安装一个用来写Python代码的文本编辑器" class="headerlink" title="3：安装一个用来写Python代码的文本编辑器"></a>3：安装一个用来写Python代码的文本编辑器</h4><p>到这里，可能有的同学会有疑问，刚才你不是说过怎么成功访问Python了吗？既然在没有文本编辑器的情况下可以访问，那么为什么要下载文本编辑器？</p>
+<p>刚才在<code>命令提示符</code>里，虽然成功访问了Python，也能写代码并可以成功执行，但这种访问Python的方式有一个致命的缺陷：没法保存你已经写好的Python代码。不知道你有没有见过程序员写的代码，个人最开始感觉花10年也不可能完成啊！足可以想象代码的数量有多么庞大。一个项目可能花几个星期，几个月也有可能。如果不能保存，那程序员这个职业做的好的，应该是电脑最好的，开机时间维持最久的那个人。</p>
+<p>这时候我们就需要用到文本编辑器了，就像游戏里“保存进度”的作用一样，有了它，我们便可以随时随地继续之前保存的编程工作了。当然，文本编辑器还有其他作用，如语法高亮，查询代码等等，这里不展开，也没必要展开，后续大家用文本编辑器开始写程序后会自然而然的了解。</p>
+<hr>
+<h3 id="如何使用Python"><a href="#如何使用Python" class="headerlink" title="如何使用Python"></a>如何使用Python</h3><p>上述所有的步骤你都完成了之后，这一步其实已经完成了。我们已经可以开始用Python来写东西了，剩下的工作就是了解Python使用过程中的规则，怎么更好的使用Python。</p>
+<p><strong><font color="red">Ending……</font></strong></p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/categories/">Categories</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Windows如何安装和使用Python？"><span class="toc-number">1.</span> <span class="toc-text">Windows如何安装和使用Python？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#简单介绍Python"><span class="toc-number">1.1.</span> <span class="toc-text">简单介绍Python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何安装Python"><span class="toc-number">1.2.</span> <span class="toc-text">如何安装Python</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1：到官网下载并安装Python到电脑上"><span class="toc-number">1.2.1.</span> <span class="toc-text">1：到官网下载并安装Python到电脑上</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2：让电脑知道你把Python下载到哪了"><span class="toc-number">1.2.2.</span> <span class="toc-text">2：让电脑知道你把Python下载到哪了</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3：安装一个用来写Python代码的文本编辑器"><span class="toc-number">1.2.3.</span> <span class="toc-text">3：安装一个用来写Python代码的文本编辑器</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何使用Python"><span class="toc-number">1.3.</span> <span class="toc-text">如何使用Python</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&text=Windows如何安装和使用Python？"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&is_video=false&description=Windows如何安装和使用Python？"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Windows如何安装和使用Python？&body=Check out this article: https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&title=Windows如何安装和使用Python？"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://C-eddie.github.io/2019/05/21/Windows如何安装和使用Python？/&name=Windows如何安装和使用Python？&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menú</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Compartir</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Cap amunt</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 C-eddie
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/categories/">Categories</a></li>
+         
+          <li><a href="/archives/">Articles</a></li>
+         
+          <li><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
